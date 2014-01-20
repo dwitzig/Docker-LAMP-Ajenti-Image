@@ -16,4 +16,4 @@ RUN yum install -y httpd mysql-server php php-mysql phpmyadmin openssh-server
 # expose ports
 EXPOSE 80:80 443:443
 
-CMD /etc/init.d/httpd start && /etc/init.d/mysqld start && /etc/init.d/ssh start
+CMD /etc/init.d/httpd start && /etc/init.d/mysqld start && /etc/init.d/ssh start && /etc/init.d/ajenti start
